@@ -1,0 +1,20 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments (if local)
+.venv/
+
+# Django-specific
+db.sqlite3
+*.log
+staticfiles/     # Only the generated static folder
+# media/         <- Do NOT ignore this since you want it in Git
+
+# Environment and OS files
+.env
+.DS_Store
+
+# Optional: VSCode and system files
+.vscode/
+Thumbs.db
